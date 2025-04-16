@@ -21,11 +21,116 @@
 }
 
 /* Primer articulo css */
-
 .div-img-background {
     background-image: url('https://images.pexels.com/photos/4687360/pexels-photo-4687360.jpeg?auto=compress&cs=tinysrgb&w=600');
     background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.h2-img-art1 {
+    font-size: clamp(30px, 5vw, 70px);
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+    line-height: 1.4;
+    box-sizing: border-box;
+}
+
+/* Segundo articulo */
+
+.Puntos-de-Dolor{
+    margin: 20px 20px;
+    background-color: #f3f4f6 ;
+    border-radius: 20px;
+    padding: 20px;  
+}
+
+#carta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 500px;
+    margin: 20px;
+    padding: 50px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#carta:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+.divider {
+    margin: 10px;
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(to right, #0000ff, #00bfff, #87CEFA, #00bfff, #0000ff);
+}
+
+/* Servicios */
+.Servicios{
+    padding: 30px;
+}
+
+#cartas-servicios {
+        border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#cartas-servicios:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* el contacto */
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f3f4f6;
+    border-radius: 20px;
+    margin: 20px 20px;
+}
+
+.maps {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+    .maps {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+/* Compartidos */
+
+.text-service,.text-puntos{
+    padding: 30px;
+    margin: 40px;
+    font-size: 60px;
 }

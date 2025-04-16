@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clinica</title>
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="/assets/fonts/fonts.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
@@ -46,17 +46,127 @@
     <!-- ============================== -->
     <!-- El Contenido Principal -->
      <main>
-        <article class="inicios">
+        <section class="inicios">
             <div class="div-img-background">
-
+                <h2 class="h2-img-art1">Especialistas en lo que más vale: <br> tu tranquilidad y tu sonrisa.</h2>
+                <button id="boton-agendar">Empieza hoy</button>
             </div>
 
             </div>
-        </article>
+        </section>
+        <!-- ============================== -->
+        <!-- Sección de contextos -->
+        <section class="Puntos-de-Dolor">
+            <div class="row text-center justify-content-center">
+                <h2 class="text-puntos">¿Te sientes identificado con alguno de estos puntos? No te preocupes, ¡tenemos la solución!</h2>
+            <article class="col-md-4 d-flex flex-column align-items-center text-center" id="carta">
+                <h3 class="question">"Sensación de que los tratamientos son muy costosos o inalcanzables."</h3>
+                <span class="divider"></span>
+                <p class="affirmation">Planes de financiación flexibles y opciones accesibles sin sacrificar calidad ni materiales.</p>
+            </article>
+            <article class="col-md-4 d-flex flex-column align-items-center text-center" id="carta">
+                <h3 class="question">"Falta de tiempo para agendar citas o miedo a tratamientos muy largos."</h3>
+                <span class="divider"></span>
+                <p class="affirmation">Horarios flexibles y tratamientos eficientes gracias a tecnología de última generación.</p>
+            </article>
+            <article class="col-md-4 d-flex flex-column align-items-center text-center " id="carta">
+                <h3 class="question">"No encontrar una clínica especializada en su caso (implantes, ortodoncia, estética, etc.)."</h3>
+                <span class="divider"></span>
+                <p class="affirmation">Equipo multidisciplinario con especialistas en cada área odontológica para casos simples o complejos.</p>
+            </article>
+            </div>
+        </section>
+
+        <!-- ============================== -->
+        <!-- Sección de Servicios -->
+
+         <section class="Servicios" id="Servicios">
+            <div class="container text-center">
+                <h2 class="text-service">SERVICIOS</h2>
+                <div class="row">
+                    <div class="col">
+                    <div class="card" style="width: 18rem;" id="cartas-servicios">
+                        <img src="https://www.clinicadentaltest.es/protesis-dentales-tipos-cuidados-y-como-adaptarse-a-ellas_img250485t1.jpg" class="card-img-top" alt="Prótesis dentales">
+                        <div class="card-body">
+                        <h5 class="card-title">Prótesis fijas y removibles</h5>
+                        <p class="card-text">Prótesis personalizadas que se adaptan a cada necesidad funcional y estética, con precisión y materiales de alta calidad.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card" style="width: 18rem;" id="cartas-servicios">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQxh8BG_J3LaGMz-knnPydF33hb-CiCRYdaQ&s" class="card-img-top" alt="Coronas y puentes">
+                        <div class="card-body">
+                        <h5 class="card-title">Coronas y puentes</h5>
+                        <p class="card-text">Restauraciones duraderas y naturales en cerámica, zirconio o metal para recuperar la forma y belleza dental.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card" style="width: 18rem;" id="cartas-servicios">
+                        <img src="https://www.coeprovidence.com/wp-content/uploads/2017/10/Rehabilitacio%CC%81n-Oral-y-Estetica-COE-Providence-3.jpg" class="card-img-top" alt="Rehabilitación estética">
+                        <div class="card-body">
+                        <h5 class="card-title">Rehabilitación estética</h5>
+                        <p class="card-text">Tratamientos personalizados para transformar sonrisas, combinando salud, armonía y estética.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                    <div class="card" style="width: 18rem;" id="cartas-servicios">
+                        <img src="https://images.squarespace-cdn.com/content/v1/5b91733c9772ae9bb38e47c0/bade75a7-ced7-4ee9-a943-f10aa249a5c2/female-patient-having-her-teeth-scanned-by-professional-dentist.jpg" class="card-img-top" alt="Escáner intraoral">
+                        <div class="card-body">
+                        <h5 class="card-title">Escaneo intraoral</h5>
+                        <p class="card-text">Captura digital precisa de la anatomía bucal sin moldes físicos ni molestias, ideal para mayor comodidad.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card" style="width: 18rem;" id="cartas-servicios">
+                        <img src="https://estudidentalbarcelona.com/wp-content/uploads/2020/04/shutterstock_1142458823.jpg" class="card-img-top" alt="Modelado CAD/CAM">
+                        <div class="card-body">
+                        <h5 class="card-title">Modelado CAD/CAM</h5>
+                        <p class="card-text">Tecnología avanzada para diseñar y fresar prótesis con máxima precisión y eficiencia.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card" style="width: 18rem;" id="cartas-servicios">
+                        <img src="https://sevilladental.net/wp-content/uploads/2021/05/se-me-ha-roto-la-protesis-dental-como-arreglar-una-dentadura-postiza-rota.jpg" class="card-img-top" alt="Mantenimiento de prótesis">
+                        <div class="card-body">
+                        <h5 class="card-title">Mantenimiento y reparación</h5>
+                        <p class="card-text">Soluciones rápidas y confiables para mantener tus prótesis dentales en óptimas condiciones.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+         </section>
+        <section class="contacto">
+                <iframe src="https://maps.app.goo.gl/XSWwxhjfnV1qErQ18" class="maps"></iframe>
+            <div class="text-center mt-3">
+                <p>Encuéntranos en nuestra ubicación exacta para más información.</p>
+                <div class="contact-info">
+                    <p><span>Dirección:</span> Calle Principal #123, Ciudad, País</p>
+                    <p><span>Teléfono:</span> +123 456 7890</p>
+                    <p><span>Correo Electrónico:</span> contacto@clinica.com</p>
+                    <p><span>Redes Sociales:</span> 
+                        <a href="https://facebook.com" target="_blank">Facebook</a>, 
+                        <a href="https://instagram.com" target="_blank">Instagram</a>, 
+                        <a href="https://twitter.com" target="_blank">Twitter</a>
+                    </p>
+                </div>
+            </div>
+        </section>
      </main>
-
-
-
     <script src="/js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
